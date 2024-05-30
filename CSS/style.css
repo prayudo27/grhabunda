@@ -1,0 +1,11 @@
+.jumbotron {
+  background: linear-gradient(
+      to left,
+      rgba(245, 242, 242, 0.199),
+      rgb(255, 255, 255)
+    ),
+    url(../img/Banner.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+}
