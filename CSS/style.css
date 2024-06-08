@@ -8,7 +8,8 @@
     url(../img/Banner.jpg);
   background-position: center;
   background-size: cover;
-  height: 300px;
+  height: 400px;
+  padding-top: 3rem;
 }
 /* ========== END OF JUMBOTRON ========== */
 
@@ -16,9 +17,9 @@
 button {
   display: inline-block;
   border-radius: 4px;
-  background-color: #EB933A;
+  background-color: #eb933a;
   border: none;
-  color: #FFFFFF;
+  color: #ffffff;
   text-align: center;
   font-size: 17px;
   padding: 10px;
@@ -26,30 +27,30 @@ button {
   transition: all 0.5s;
   margin: 5px;
   font-weight: 500;
- }
- 
- button span {
+}
+
+button span {
   cursor: pointer;
   display: inline-block;
   position: relative;
   transition: 0.5s;
- }
- 
- button span:after {
-  content: '»';
+}
+
+button span:after {
+  content: "»";
   position: absolute;
   opacity: 0;
   top: 0;
   right: -15px;
   transition: 0.5s;
- }
- 
- button:hover span {
+}
+
+button:hover span {
   padding-right: 15px;
- }
- 
- button:hover span:after {
+}
+
+button:hover span:after {
   opacity: 1;
   right: 0;
- }
- /* ========== END OF BUTTON JANTI TEMU ========== */
+}
+/* ========== END OF BUTTON JANTI TEMU ========== */
