@@ -14,7 +14,7 @@
 /* ========== END OF JUMBOTRON ========== */
 
 /* ========== BUTTON JANTI TEMU ========== */
-button {
+.btnJanji {
   display: inline-block;
   border-radius: 4px;
   background-color: #eb933a;
@@ -29,14 +29,14 @@ button {
   font-weight: 500;
 }
 
-button span {
+.btnJanji span {
   cursor: pointer;
   display: inline-block;
   position: relative;
   transition: 0.5s;
 }
 
-button span:after {
+.btnJanji span:after {
   content: "»";
   position: absolute;
   opacity: 0;
@@ -45,12 +45,21 @@ button span:after {
   transition: 0.5s;
 }
 
-button:hover span {
+.btnJanji:hover span {
   padding-right: 15px;
 }
 
-button:hover span:after {
+.btnJanji:hover span:after {
   opacity: 1;
   right: 0;
 }
 /* ========== END OF BUTTON JANTI TEMU ========== */
+
+.tittle_banner {
+  font-weight: 500;
+  color: #BC581E;
+}
+.subtitle_banner {
+  color: #BC581E;
+  font-weight: 400;
+}
