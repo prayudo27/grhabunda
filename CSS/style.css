@@ -1,3 +1,7 @@
+body {
+  min-height: 1000px;
+}
+
 /* ========== JUMBOTRON ========== */
 .jumbotron {
   background: linear-gradient(
@@ -8,8 +12,8 @@
     url(../img/Banner.jpg);
   background-position: center;
   background-size: cover;
-  height: 400px;
-  padding-top: 3rem;
+  height: 450px;
+  padding-top: 4rem;
 }
 /* ========== END OF JUMBOTRON ========== */
 
@@ -65,3 +69,10 @@
   font-weight: 400;
 }
 /* ========== END OF TEXT BANNER JUMBOTRON ========== */
+
+/* ========== SERVICE ========== */
+.service__title {
+  font-weight: 500;
+  color: #BC581E;
+}
+/* ========== END OF SERVICE ========== */
