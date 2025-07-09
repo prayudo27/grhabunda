@@ -75,6 +75,9 @@ body {
 /* ========== END OF TEXT BANNER JUMBOTRON ========== */
 
 /* ========== SERVICE ========== */
+.card__services{
+  gap: 20px;
+}
 .service__title {
   font-weight: 500;
   color: var(--subtitle-font);
